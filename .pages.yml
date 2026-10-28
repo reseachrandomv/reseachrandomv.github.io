@@ -1,0 +1,21 @@
+# Pages CMS config (https://app.pagescms.org). Only GitHub collaborators with write access can edit.
+media:
+  input: images/posts
+  output: images/posts
+  categories: [image]
+content:
+  - name: posts
+    label: Posts
+    type: file
+    path: posts/posts.json
+    format: json
+    fields:
+      - name: posts
+        label: Posts
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string, required: true }
+          - { name: date, label: Date, type: date, required: true }
+          - { name: image, label: Image (optional), type: image }
+          - { name: text, label: Text, type: text, required: true }
