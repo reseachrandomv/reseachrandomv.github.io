@@ -33,3 +33,4 @@ h1{background-size:200% auto;background-image:linear-gradient(90deg,#fff,var(--g
 nav{backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);background:#0b0f2aa6}
 .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}.reveal.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}html{scroll-behavior:auto}.reveal{opacity:1;transform:none}}
+.social{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:22px}.contact .social{justify-content:flex-start;margin:0}.sbtn{padding:9px 18px;border-radius:99px;border:1px solid #5865F288;color:var(--text);text-decoration:none;font-size:.9rem;background:#5865F21f;transition:.2s}.sbtn:hover{background:var(--blurple);box-shadow:0 6px 22px #5865F266;transform:translateY(-2px)}.sbtn.ph{opacity:.55;cursor:default}
