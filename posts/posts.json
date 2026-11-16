@@ -1,10 +1,3 @@
 {
-  "posts": [
-    {
-      "title": "SAMPLE POST: delete me",
-      "date": "2026-10-29",
-      "image": "",
-      "text": "This is a sample post to show how posts look. Malaak, delete this one in Pages CMS once you've added your first real post."
-    }
-  ]
+  "posts": []
 }
